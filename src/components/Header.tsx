@@ -1,12 +1,27 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Code, Zap, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const { theme, setTheme } = useTheme();
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   
   return (
-    <header className="fixed top-0 w-full bg-background/80 backdrop-blur-lg border-b border-border z-50">
+    <header className={`fixed top-0 w-full transition-all duration-300 z-50 ${
+      isScrolled 
+        ? 'bg-background/95 backdrop-blur-xl border-b border-border shadow-lg' 
+        : 'bg-transparent backdrop-blur-sm'
+    }`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
