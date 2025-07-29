@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { Menu, Code, Zap } from "lucide-react";
+import { Menu, Code, Zap, Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
 
 const Header = () => {
+  const { theme, setTheme } = useTheme();
+  
   return (
     <header className="fixed top-0 w-full bg-background/80 backdrop-blur-lg border-b border-border z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -27,6 +30,14 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-3">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            className="hidden sm:flex"
+          >
+            {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+          </Button>
           <Button variant="ghost" className="hidden md:flex">
             Iniciar Sesión
           </Button>

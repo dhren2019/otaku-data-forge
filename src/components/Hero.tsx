@@ -88,8 +88,8 @@ const Hero = () => {
                 </div>
               </div>
               <div className="p-6 font-mono text-sm">
-                <div className="space-y-3">
-                  <div className="text-accent">GET https://animeapi.dev/api/v1/anime?title=naruto</div>
+                  <div className="space-y-3">
+                    <div className="text-accent">GET https://www.animeapiplatform.com/api/v1/anime</div>
                   <div className="text-muted-foreground">{`{`}</div>
                   <div className="pl-4 space-y-1">
                     <div><span className="text-secondary">"title"</span>: <span className="text-accent">"Naruto"</span>,</div>

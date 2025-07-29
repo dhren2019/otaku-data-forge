@@ -20,7 +20,7 @@ const Pricing = () => {
           <Card className="bg-gradient-card border-border/50 p-8 relative">
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold mb-2">Plan Gratuito</h3>
-              <div className="text-4xl font-bold text-primary mb-2">$0</div>
+              <div className="text-4xl font-bold text-primary mb-2">€0</div>
               <p className="text-muted-foreground">Para empezar</p>
             </div>
 
@@ -60,14 +60,14 @@ const Pricing = () => {
 
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold mb-2">Plan PRO</h3>
-              <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">$9.99</div>
+              <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">€4.00</div>
               <p className="text-muted-foreground">por mes</p>
             </div>
 
             <ul className="space-y-4 mb-8">
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-primary" />
-                <span className="font-medium">Más peticiones por minuto y límites ampliados</span>
+                <span className="font-medium">2,500 peticiones por mes y límites ampliados</span>
               </li>
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-primary" />
