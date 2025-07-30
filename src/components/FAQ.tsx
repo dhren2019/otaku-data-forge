@@ -33,25 +33,28 @@ const FAQ = () => {
     <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             <span className="bg-gradient-secondary bg-clip-text text-transparent">
               Preguntas frecuentes
             </span>
           </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Resolvemos las dudas más comunes sobre nuestra API de animes
+          </p>
         </div>
 
-        <div className="max-w-3xl mx-auto">
-          <Accordion type="single" collapsible className="space-y-4">
+        <div className="max-w-4xl mx-auto">
+          <Accordion type="single" collapsible className="space-y-6">
             {faqs.map((faq, index) => (
               <AccordionItem 
                 key={index} 
                 value={`item-${index}`}
-                className="bg-gradient-card border border-border/50 rounded-lg px-6"
+                className="bg-gradient-card border border-border/50 rounded-xl px-8 py-2 shadow-card hover:shadow-glow transition-all duration-300"
               >
-                <AccordionTrigger className="text-left hover:no-underline">
-                  <span className="font-semibold">{faq.question}</span>
+                <AccordionTrigger className="text-left hover:no-underline py-6">
+                  <span className="font-semibold text-lg">{faq.question}</span>
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
+                <AccordionContent className="text-muted-foreground pb-6 text-base leading-relaxed">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

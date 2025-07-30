@@ -65,7 +65,7 @@ const PlatformShowcase = () => {
             <img 
               src="/lovable-uploads/6a13a91c-2a24-4415-a3bc-6f67e7a57fcc.png" 
               alt="Anime API working on multiple devices" 
-              className="w-full h-auto rounded-lg shadow-2xl"
+              className="w-full h-auto rounded-lg"
             />
           </div>
           
