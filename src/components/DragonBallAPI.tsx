@@ -7,7 +7,7 @@ const DragonBallAPI = () => {
     <section className="py-20 bg-muted/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center w-32 h-32 mb-6 mx-auto">
+          <div className="inline-flex items-center justify-center w-40 h-40 mb-6 mx-auto">
             <img 
               src="/lovable-uploads/a3667c6c-0a6d-47c5-8f74-f74ac1180a60.png" 
               alt="Dragon Ball API" 

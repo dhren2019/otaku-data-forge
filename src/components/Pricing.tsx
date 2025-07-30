@@ -27,7 +27,7 @@ const Pricing = () => {
             <ul className="space-y-4 mb-8">
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-accent" />
-                <span>1,000 peticiones por mes</span>
+                <span>10 peticiones por mes</span>
               </li>
               <li className="flex items-center gap-3">
                 <Check className="w-5 h-5 text-accent" />
@@ -60,7 +60,7 @@ const Pricing = () => {
 
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold mb-2">Plan PRO</h3>
-              <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">€4.00</div>
+              <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">€4</div>
               <p className="text-muted-foreground">por mes</p>
             </div>
 

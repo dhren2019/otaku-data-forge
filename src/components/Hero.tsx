@@ -33,45 +33,43 @@ const Hero = () => {
 
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-                La <span className="bg-gradient-primary bg-clip-text text-transparent">API de Anime</span>
+                ¡Lleva tu proyecto al <span className="bg-gradient-primary bg-clip-text text-transparent">siguiente nivel</span>
                 <br />
-                para creadores, bots
-                <br />
-                y apps modernas
+                con la API de anime!
               </h1>
               
               <p className="text-xl text-muted-foreground max-w-lg">
-                Accede a más de 39,000 animes, películas y OVAs con datos actualizados, imágenes y metadatos.
+                Accede a más de 39,000 animes, películas y OVAs, con datos actualizados, imágenes de alta calidad y metadatos precisos al instante. La herramienta perfecta para desarrolladores, creadores de bots, aplicaciones y proyectos innovadores.
                 <br />
                 <span className="text-primary font-semibold">
-                  Potencia tu proyecto con la API más fácil y potente del mundo otaku.
+                  Impulsa tu creación con la API más potente y fácil de usar del mundo otaku.
                 </span>
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="xl" className="group">
-                Conseguir API Key Gratis
+                🎯 Obtén tu API Key de forma gratuita
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="xl" className="group">
                 <Play className="w-5 h-5" />
-                Ver Demo
+                🚀 Prueba la demo y descúbrelo tú mismo
               </Button>
             </div>
 
             <div className="flex items-center gap-8 pt-4">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">38K+</div>
-                <div className="text-sm text-muted-foreground">Animes</div>
+                <div className="text-sm text-muted-foreground">Más de 38,000 animes</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-secondary">99.9%</div>
-                <div className="text-sm text-muted-foreground">Uptime</div>
+                <div className="text-sm text-muted-foreground">99.9% uptime</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-accent">500+</div>
-                <div className="text-sm text-muted-foreground">Desarrolladores</div>
+                <div className="text-sm text-muted-foreground">Más de 500 proyectos impulsados</div>
               </div>
             </div>
           </div>

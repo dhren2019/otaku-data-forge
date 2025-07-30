@@ -5,38 +5,38 @@ const Features = () => {
   const features = [
     {
       icon: Zap,
-      title: "Ultra rápida y estable",
-      description: "Infraestructura cloud, baja latencia y alta disponibilidad para tus proyectos.",
+      title: "Ultra rápida",
+      description: "La velocidad es clave. Responde a tus usuarios casi en tiempo real sin esperar.",
       gradient: "from-primary to-secondary"
     },
     {
       icon: RefreshCw,
       title: "Datos siempre actualizados",
-      description: "Información de anime, imágenes y metadatos sincronizados a diario.",
+      description: "Mantén tu plataforma al día con anime actualizado, imágenes y metadatos sincronizados a diario.",
       gradient: "from-secondary to-accent"
     },
     {
       icon: Wrench,
-      title: "Integración instantánea",
-      description: "Documentación clara y ejemplos para cualquier lenguaje y plataforma.",
+      title: "Integración sin esfuerzo",
+      description: "Nuestra documentación es clara, precisa y llena de ejemplos prácticos que te permitirán comenzar a integrar nuestra API sin perder tiempo.",
       gradient: "from-accent to-primary"
     },
     {
       icon: Database,
-      title: "+38,000 animes",
-      description: "Endpoints rápidos y flexibles con una base de datos masiva.",
+      title: "¡La base de datos de anime más masiva está al alcance de tu mano!",
+      description: "Con más de 38,000 animes disponibles en nuestra API, tendrás acceso a la mayor colección de contenido otaku, asegurando que siempre puedas ofrecer lo mejor a tus usuarios.",
       gradient: "from-primary to-accent"
     },
     {
       icon: Shield,
-      title: "Autenticación sencilla",
-      description: "API Key simple y segura para proteger tus peticiones.",
+      title: "Autenticación sencilla y segura",
+      description: "Solo necesitas una API Key para comenzar. Rápida, simple y segura para proteger todas tus peticiones.",
       gradient: "from-secondary to-primary"
     },
     {
       icon: Smartphone,
-      title: "Multiplataforma",
-      description: "Compatible con web, móvil, bots de Discord, Telegram y más.",
+      title: "Usa nuestra API en cualquier plataforma",
+      description: "Web y desktop: React, Vue, Angular, Electron. Aplicaciones móviles: iOS, Android, React Native, Flutter. Bots de chat: Discord, Telegram, WhatsApp, Slack. Gaming: Unity, Unreal Engine, Godot",
       gradient: "from-accent to-secondary"
     },
   ];
@@ -47,11 +47,11 @@ const Features = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Pensada para desarrolladores
+              Perfecta para desarrolladores y creadores de todo tipo
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Únete a cientos de desarrolladores que ya integran Anime API Platform en sus proyectos
+            Ya sea que estés trabajando en una aplicación móvil, una web interactiva, un bot o un juego, nuestra API está pensada para ti. Fácil de usar, rápida y confiable.
           </p>
         </div>
 
